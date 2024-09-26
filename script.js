@@ -28,7 +28,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Se agora seus pais morressem, ou apenas 1 deles, como você lidaria com a perda?",
+        enunciado: "Se agora seus pais morressem, ou apenas um deles, como você lidaria com a perda?",
         alternativas: [
             {
                 texto: "Ficaria triste, e passaria a ver o mundo como um lugar horrivel."
@@ -39,7 +39,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Em um centro de adoção, exixtem apenas 2 cachorros, um labrador doente, e um pincher saudavel, (Sua intuição é caçar) qual você escolheria?",
+        enunciado: "Em um centro de adoção, exixtem apenas dois cachorros, um labrador doente, e um pincher saudavel, (Sua intuição é caçar) qual você escolheria?",
         alternativas: [
             {
                 texto: "Cuidar do cachorro doente e ter paciência."
