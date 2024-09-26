@@ -65,7 +65,7 @@ const perguntas = [
 
 let atual = 0;
 let perguntaAtual;
-let historiaFinal = "VEmos de certa forma com estás perguntas, como a nossa mente pode ser uma luz que ilumina ou uma sombra que propaga a confusão, isto só vai depender da gente em formas de se ajudar e caa dia se tornando uma pessoa melhor, todas essas perguntas são associadas com apsicologia humana de uma forma bem breve e fácil de entender.(Perdição, desigualdade, medo, ansiedade, falta de empatia.";
+let historiaFinal = "Vemos de certa forma com estás perguntas, como a nossa mente pode ser uma luz que ilumina ou uma sombra que propaga a confusão, isto só vai depender da gente em formas de se ajudar e caa dia se tornando uma pessoa melhor, todas essas perguntas são associadas com apsicologia humana de uma forma bem breve e fácil de entender.(Perdição, desigualdade, medo, ansiedade, falta de empatia.";
 
 function mostraPergunta() {
     if (atual >= perguntas.length) {
@@ -95,7 +95,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
